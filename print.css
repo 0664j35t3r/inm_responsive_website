@@ -1,0 +1,157 @@
+/*CSS*/
+
+@media all  {
+  div#stories {
+    float: left;
+    text-align: justify;
+    background: white;
+	width: 98%;
+    padding-left: 1%;
+	padding-right: 1%;
+    }
+    
+  article.story {
+    float: left;
+    text-align: justify;
+	width: 99%;
+	padding-left: 1%;
+	padding-bottom: 3%;
+	padding-top: 1%;
+	background: white;
+    }
+   
+    
+  div#specials {
+    float: left;
+    width: 99%;
+    text-align: justify;
+	background: white;
+    width: 98%;
+	padding-top: 1em;
+    padding-left: 1%;
+	padding-right: 1%;
+    }
+}
+
+
+
+
+/* Dropdownmenu */
+/* http://www.red-team-design.com/css3-dropdown-menu */
+
+/* format von Dropdwonmenu */
+nav#global-nav {
+  visibility: hidden;	
+  float: left;
+  width: 0%;
+  padding-top: 0em;
+  padding-bottom: 0em;
+  padding-left: 0%;
+  background: white;
+  }
+
+nav#global-nav ul {
+  position: absolute;
+  background: white;
+  }
+
+/* Hauptmenu horizontal */
+nav#global-nav ul li{
+  float: left;
+  padding-top: 0.2em;
+  padding-left: 1em;
+  }
+
+/* menu anzeigen */
+nav#global-nav ul ul { 
+  display: none;
+  }
+
+/* wenn hover, dropdownmenu anzeigen */
+nav#global-nav ul li:hover > ul {
+  display: block; 
+  position:  absolute;
+  list-style: none;
+  background: white;
+  }
+
+/* untereinander */
+nav#global-nav ul ul li {
+  display: block;
+  float: none;
+  }
+
+
+
+
+header { 
+  float: left;
+  top: 0%;
+  width: 98%;
+  padding-top: 1%;
+  padding-left: 1%;
+  padding-right: 1%;
+  font-family: "Verdana","sans-serif";
+  }
+
+h1 { 
+  font-family: "Verdana","sans-serif";
+  font-weight: bold;
+  }
+
+p#tagline {
+  border-top-style: solid;
+  border-width: 0.05em;
+  border-color: black;
+  }
+
+a, 
+a:link:after, 
+a:visited:after {
+  color: #005604;
+  font-weight: bold;
+  text-decoration: none;
+  content: " <"attr(href)"> ";
+  }
+
+header a:link:after, 
+header a:visited:after {
+  content: ""
+}
+
+body {
+  font-family: "Times New Roman","serif";	
+  font-size: 12pt;
+  }	  
+
+img#gtlogo {
+  float: right;
+  width: 5em;
+  padding-top:2em;
+  }
+
+
+
+/* bilder skalieren, da sont seite immer zu groß ist */
+img {
+  max-width: 100%;
+  max-height: 100%;
+  }
+
+footer {
+  float: left;
+  bottom: 0%;
+  width: 98%;
+  padding-top: 1%;
+  padding-left: 1%;
+  padding-right: 1%;
+  border-top-style: solid;
+  border-width: 0.05em;
+  border-color: #252525;
+  }
+
+footer a { 
+  visibility: hidden;
+  }
+
+

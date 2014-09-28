@@ -1,0 +1,200 @@
+/*CSS*/
+
+
+/* narrow */
+@media all and (max-width: 40em) {
+  div#stories {
+    float: left;
+    text-align: justify;
+    background: grey;
+	width: 98%;
+    padding-left: 1%;
+	padding-right: 1%;
+    }
+    
+  article.story {
+    float: left;
+    text-align: justify;
+	width: 99%;
+	padding-left: 1%;
+	padding-bottom: 3%;
+	padding-top: 1%;
+	background: grey;
+	color: white;
+    }
+   
+    
+  div#specials {
+    float: left;
+    width: 99%;
+    text-align: justify;
+	background: orange;
+    width: 98%;
+	padding-top: 1em;
+	padding-bottom: 1em;
+    padding-left: 1%;
+	padding-right: 1%;
+    }
+  
+  figcaption {
+  	display: none;
+  }
+  
+}
+
+/* medium */
+@media all and (min-width: 40em) and (max-width: 60em) {
+  div#stories {
+    float: left;
+    text-align: justify;
+    background: grey;
+	width: 69%;
+    padding-left: 1%
+    }
+	
+	
+  article.story {
+    float: left;
+    text-align: justify;
+	width: 97%;
+	padding-left: 1%;
+	padding-right: 1%;
+	padding-bottom: 3%;
+	background: grey;
+	color: white;
+    }
+    
+    	
+  div#specials {
+    float: right;
+    text-align: justify;
+    background: orange;
+	width: 28%;
+	padding: 1%
+  }
+}
+
+
+/* wide */
+@media all and (min-width: 60em) {
+  div#stories {
+    float: left;
+    text-align: justify;
+	background: grey;
+	width: 80%;
+    }
+
+  article.story {
+    float:left;
+    text-align: justify;
+	width: 48%;
+	padding-left: 1%;
+	padding-bottom: 3%;
+	background: grey;
+	color: white;
+    }
+
+  div#specials {  
+    float: left;
+    width: 18%;
+    text-align: justify;
+	background: orange;
+	padding-right: 1%;
+	padding-left: 1%;
+    }
+}
+
+
+
+
+/* Dropdownmenu */
+/* http://www.red-team-design.com/css3-dropdown-menu */
+
+/* format von Dropdwonmenu */
+nav#global-nav {
+  float: none;
+  width: 99%;
+  padding-top: 3em;
+  padding-bottom: 10em;
+  padding-left: 1%;
+  background: blueviolet;
+  }
+
+nav#global-nav ul {
+  position: absolute;
+  background: white;
+  }
+
+/* Hauptmenu horizontal */
+nav#global-nav ul li{
+  float: left;
+  padding-top: 0.2em;
+  padding-left: 1em;
+  }
+
+/* menu anzeigen */
+nav#global-nav ul ul { 
+  display: none;
+  }
+
+/* wenn hover, dropdownmenu anzeigen */
+nav#global-nav ul li:hover > ul {
+  display: block; 
+  position:  absolute;
+  list-style: none;
+  background: white;
+  }
+
+/* untereinander */
+nav#global-nav ul ul li {
+  display: block;
+  float: none;
+  }
+
+
+
+
+header { 
+  float: left;
+  top: 0%;
+  width:98%;
+  padding-top: 1%;
+  padding-left: 1%;
+  padding-right: 1%;
+  }
+  
+  
+body {
+  background: grey;
+  font-family:"Comic Sans MS","fantasy";	
+  }	  
+
+img#gtlogo {
+  float: right;
+  width: 5em;
+  }
+
+div#stories span.price {
+  background: yellow;
+  color: black;
+  }
+  
+
+/* bilder skalieren, da sont seite immer zu groß ist */
+img {
+  max-width: 100%;
+  max-height: 100%;
+  }
+
+footer {
+  float: left;
+  bottom: 0%;
+  width: 98%;
+  padding-top: 1%;
+  padding-left: 1%;
+  padding-right: 1%;
+
+  }
+
+
+
